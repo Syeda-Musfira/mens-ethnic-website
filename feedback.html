@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback | MENS ETHNIC</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>MENS ETHNIC</h1>
+    <p class="tagline">Men's Eastern Wear</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="collection.html">Collection</a>
+      <a href="kurta.html">Kurtas</a>
+      <a href="shalwarkameez.html">Shalwar Kameez</a>
+      <a href="waistcoats.html">Waistcoats</a>
+      <a href="sherwani.html">Sherwanis</a>
+      <a href="sizeguide.html">Size Guide</a>
+      <a href="faq.html">FAQ</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Share Your Feedback</h2>
+    <p>Your opinion helps us improve our fabrics, fits, and service.</p>
+  </section>
+
+  <main>
+    <h2>Tell Us What You Think</h2>
+    <p>Fill in the form below. Fields marked with * are required.</p>
+
+    <form class="feedback-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+      <label for="name">Your Name *</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="category">What are you giving feedback about? *</label>
+      <select id="category" name="category" required>
+        <option value="">Select one</option>
+        <option>Kurtas</option>
+        <option>Shalwar Kameez</option>
+        <option>Waistcoats</option>
+        <option>Sherwanis</option>
+        <option>Website</option>
+        <option>Customer Service</option>
+        <option>Other</option>
+      </select>
+
+      <label for="rating">Overall Rating *</label>
+      <select id="rating" name="rating" required>
+        <option value="">Select a rating</option>
+        <option value="5">5 - Excellent</option>
+        <option value="4">4 - Good</option>
+        <option value="3">3 - Average</option>
+        <option value="2">2 - Poor</option>
+        <option value="1">1 - Very Poor</option>
+      </select>
+
+      <label for="message">Your Feedback *</label>
+      <textarea id="message" name="message" rows="6" placeholder="Tell us about your experience..." required></textarea>
+
+      <button type="submit" class="button">Submit Feedback</button>
+
+    </form>
+
+    <h2>Need a Quick Answer?</h2>
+    <p>Check our <a href="faq.html">FAQ</a> or visit our <a href="contact.html">Contact page</a> if you need help with an order.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mens Ethnic. Created by Syeda Musfira Zafar.</p>
+  </footer>
+
+</body>
+</html>
