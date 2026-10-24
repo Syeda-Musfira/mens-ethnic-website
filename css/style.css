@@ -1,7 +1,5 @@
-/* ---------- Fonts ---------- */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Lato:wght@300;400;700&display=swap');
 
-/* ---------- Colors ---------- */
 :root {
   --ivory: #faf8f3;
   --cream: #f1ece0;
@@ -13,7 +11,6 @@
   --line: #e4ddcc;
 }
 
-/* ---------- Base ---------- */
 body {
   font-family: 'Lato', Arial, sans-serif;
   font-weight: 400;
@@ -41,7 +38,6 @@ main h2::after {
   margin-top: 0.5rem;
 }
 
-/* ---------- Header and navigation ---------- */
 header {
   background: var(--charcoal);
   color: #fff;
@@ -85,7 +81,6 @@ nav a:hover {
   border-bottom-color: var(--gold-light);
 }
 
-/* ---------- Hero and buttons ---------- */
 .hero {
   background: linear-gradient(rgba(20, 20, 20, 0.88), rgba(20, 20, 20, 0.88)), var(--charcoal);
   color: #fff;
@@ -128,7 +123,6 @@ a.button:hover {
   color: #fff;
 }
 
-/* ---------- Layout ---------- */
 main {
   max-width: 1100px;
   margin: auto;
@@ -144,7 +138,6 @@ main ul { padding-left: 1.2rem; }
 main li { margin-bottom: 0.4rem; }
 main li::marker { color: var(--gold); }
 
-/* ---------- Grid and cards ---------- */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -216,7 +209,6 @@ main li::marker { color: var(--gold); }
   letter-spacing: 1px;
 }
 
-/* ---------- Tables ---------- */
 .table-wrap {
   overflow-x: auto;
   margin-bottom: 1.5rem;
@@ -235,7 +227,6 @@ th {
 tbody tr:nth-child(even) { background: var(--cream); }
 tbody tr:hover { background: #ebe3d0; }
 
-/* ---------- FAQ ---------- */
 .faq-item {
   background: #fff;
   border: 1px solid var(--line);
@@ -255,7 +246,6 @@ tbody tr:hover { background: #ebe3d0; }
 .faq-item[open] summary { margin-bottom: 0.5rem; }
 .faq-item p { margin: 0; }
 
-/* ---------- Forms (feedback and contact) ---------- */
 .feedback-form,
 .contact-form {
   background: #fff;
@@ -322,7 +312,6 @@ tbody tr:hover { background: #ebe3d0; }
   color: #fff;
 }
 
-/* ---------- Footer ---------- */
 footer {
   text-align: center;
   background: var(--charcoal);
@@ -333,7 +322,6 @@ footer {
   letter-spacing: 1px;
 }
 
-/* ---------- Mobile ---------- */
 @media (max-width: 600px) {
   header h1 { font-size: 1.8rem; letter-spacing: 4px; }
   .hero { padding: 3rem 1rem; }
